@@ -1,0 +1,74 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M60,10 C32.386,10 10,32.386 10,60 C10,87.614 32.386,110 60,110 C87.614,110 110,87.614 110,60 C110,32.386 87.614,10 60,10 Z" />
+    
+    <!-- Shield Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,25 L40,35 L40,55 C40,70 50,82 60,85 C70,82 80,70 80,55 L80,35 L60,25 Z" />
+    
+    <!-- Shield Inner (Primary Color) -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M60,30 L45,38 L45,55 C45,67 53,77 60,80 C67,77 75,67 75,55 L75,38 L60,30 Z" />
+    
+    <!-- Fingerprint Lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M60,42 C62,42 64,44 64,46 L64,52" />
+    
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M56,46 C56,44 58,42 60,42 C62,42 64,44 64,46 L64,56" />
+    
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M52,48 C52,43 56,39 60,39 C64,39 68,43 68,48 L68,60" />
+    
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M60,50 L60,62" />
+    
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M56,52 L56,64" />
+    
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M64,54 L64,66" />
+    
+    <!-- Checkmark -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M50,68 L56,74 L70,60" />
+</vector>
+
